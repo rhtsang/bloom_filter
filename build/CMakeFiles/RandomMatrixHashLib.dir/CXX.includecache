@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rhtsang/Program2/RandomMatrixHash.cpp
+RandomMatrixHash.h
+/home/rhtsang/Program2/RandomMatrixHash.h
+math.h
+-
+stdlib.h
+-
+iostream
+-
+limits
+-
+bitset
+-
+vector
+-
+
+/home/rhtsang/Program2/RandomMatrixHash.h
+stdlib.h
+-
+

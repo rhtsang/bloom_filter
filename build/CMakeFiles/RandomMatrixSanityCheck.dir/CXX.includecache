@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rhtsang/Program2/RandomMatrixHash.h
+stdlib.h
+-
+
+/home/rhtsang/Program2/RandomMatrixSanityCheck.cpp
+RandomMatrixHash.h
+/home/rhtsang/Program2/RandomMatrixHash.h
+gtest/gtest.h
+/home/rhtsang/Program2/gtest/gtest.h
+math.h
+-
+

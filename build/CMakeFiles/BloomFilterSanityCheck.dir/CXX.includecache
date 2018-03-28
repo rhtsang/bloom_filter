@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rhtsang/Program2/BloomFilter.h
+set
+-
+vector
+-
+RandomMatrixHash.h
+/home/rhtsang/Program2/RandomMatrixHash.h
+
+/home/rhtsang/Program2/BloomFilterSanityCheck.cpp
+BloomFilter.h
+/home/rhtsang/Program2/BloomFilter.h
+gtest/gtest.h
+/home/rhtsang/Program2/gtest/gtest.h
+vector
+-
+iostream
+-
+math.h
+-
+time.h
+-
+
+/home/rhtsang/Program2/RandomMatrixHash.h
+stdlib.h
+-
+
